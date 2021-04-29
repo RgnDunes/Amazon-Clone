@@ -9,6 +9,11 @@ function Checkout() {
 
   return (
     <div className="checkout">
+      {basket.length > 0 && (
+        <div className="checkout__right">
+          <Subtotal />
+        </div>
+      )}
       <div className="checkout__left">
         {/* <img
           className="checkout__ad"
@@ -38,11 +43,6 @@ function Checkout() {
           </div>
         )}
       </div>
-      {basket.length > 0 && (
-        <div className="checkout__right">
-          <Subtotal />
-        </div>
-      )}
     </div>
   );
 }
