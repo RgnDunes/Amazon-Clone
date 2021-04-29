@@ -10,11 +10,11 @@ function Checkout() {
   return (
     <div className="checkout">
       <div className="checkout__left">
-        <img
+        {/* <img
           className="checkout__ad"
           src="https://m.media-amazon.com/images/G/31/cart/empty/kettle-desaturated._CB424694257_.svg"
           alt=""
-        />
+        /> */}
         {basket?.length === 0 ? (
           <div>
             <h2>Your Shopping Basket is empty.</h2>

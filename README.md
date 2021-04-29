@@ -4,6 +4,7 @@
 
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 - [react-context-api](https://www.npmjs.com/package/react-context-api)
+- [react-currency-format](https://www.npmjs.com/package/react-currency-format)
 
 ## **[APIs Used]()**
 
